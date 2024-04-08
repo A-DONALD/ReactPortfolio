@@ -29,22 +29,22 @@ export const navLinks = [
 // Data of computer skills section
 export const codeSkills = [
     {
-        title: 'JavaScript'
+        title: 'Python - Jupyter'
     },
     {
-        title: 'Java'
+        title: 'JavaScript - NodeJS'
     },
     {
-        title: 'Python'
+        title: 'Java - Java EE'
     },
     {
-        title: 'HTML - CSS'
+        title: 'React - NextJS'
     },
     {
-        title: 'React'
+        title: 'SQL - PL/SQL'
     },
     {
-        title: 'Next JS'
+        title: 'MongoDB'
     },
 ];
 
