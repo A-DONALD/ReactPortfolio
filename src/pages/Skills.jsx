@@ -5,7 +5,7 @@ import SkillCard from '../components/SkillCard.jsx';
 
 function Skills() {
     return (
-        <section id='skills' className="container-center py-4 w-full text-center bg-white dark:bg-gray-900">
+        <section id='skills' className="container-center py-4 w-full text-center">
             <h1 className="text-4xl text-gray-700 dark:text-white font-bold mb-4">Skills</h1>
             <div className="flex flex-wrap items-center justify-center md:flex-row flex-col">
                 <div className="w-full md:w-1/2 text-center mb-8 md:mb-0">

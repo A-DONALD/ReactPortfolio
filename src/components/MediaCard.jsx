@@ -4,7 +4,7 @@ function MediaCard({ iconSrc, networkName, link }) {
 
     return (
         <a href={link}>
-            <div className="relative w-64 h-64 rounded-md p-4 m-4 text-center transition-all duration-300 border-4 hover:border-orange-400" >
+            <div className="relative dark:bg-gray-800 w-64 h-64 rounded-md p-4 m-4 text-center transition-all duration-300 border-4 border-gray-300 dark:border-gray-700 hover:border-orange-400 dark:hover:border-blue-900" >
                 <div className="relative h-3/4">
                     <img
                         src={iconSrc}

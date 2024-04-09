@@ -3,7 +3,7 @@ import DownloadButton from '../components/DownloadBtn.jsx';
 
 function Hero() {
     return (
-        <section id="about" className="bg-white dark:bg-gray-900">
+        <section id="about">
             <div className="py-20 px-4 mx-auto max-w-screen-xl text-center lg:pt-20 lg:px-12">
                 <a href="#" className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
                     <span className="text-xs bg-primary-600 rounded-full bg-blue-400 dark:bg-blue-600 text-white px-4 py-1.5 mr-3">Info</span>
@@ -19,13 +19,12 @@ function Hero() {
                             par le développement web. Je suis spécialisé en Big Data et mon parcours inclut des projets
                             excitants que vous pourrez découvrir ici.
                         </p>
-                        <a href="#contact" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-slate-600">
-                            Contact Me
-                            <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                        </a>
-                        <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                            <DownloadButton btnName='Download CV' fileURL="https://raw.githubusercontent.com/A-DONALD/A-DONALD/main/CV_Analyst.pdf" dwnldName="CV-Donald-Youngoua.pdf" />
-                        </a>
+                        <div className="inline-flex items-center justify-center mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-slate-600">
+                            <DownloadButton btnName='Download Resume (EN)' fileURL="/docs/CV_Analyst_EN.pdf" dwnldName="CV-Donald-Youngoua-EN.pdf" />
+                        </div>
+                        <div href="#" className="inline-flex items-center justify-center text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                            <DownloadButton btnName='FR' fileURL="/docs/CV_Analyst.pdf" dwnldName="CV-Donald-Youngoua-FR.pdf" />
+                        </div>
                     </div>
                     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
                         <img src="/images/profilepic.jpg" alt="mockup" className='rounded-xl xl:rounded-3xl' />

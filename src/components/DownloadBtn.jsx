@@ -9,9 +9,7 @@ function DownloadButton({ btnName, fileURL, dwnldName }) {
     };
 
     return (
-        <div>
-            <button onClick={handleDownload}>{btnName}</button>
-        </div>
+        <button className="px-5 py-3" onClick={handleDownload}>{btnName}</button>
     );
 };
 

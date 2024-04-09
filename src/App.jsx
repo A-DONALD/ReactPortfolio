@@ -47,7 +47,7 @@ function App() {
   });
 
   return (
-    <main>
+    <main className='bg-white dark:bg-gray-900'>
       <NavBar />
       <Hero />
       <Skills />
