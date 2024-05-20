@@ -183,14 +183,4 @@ export const contactsLinks = [
         networkName: 'Téléphone',
         link: 'tel:0751382550',
     },
-    {
-        iconSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/langfr-220px-Instagram_logo_2022.svg.png',
-        networkName: 'Instagram',
-        link: 'https://instagram.com/donald.y18?igshid=MzMyNGUyNmU2YQ==',
-    },
-    {
-        iconSrc: 'https://img.freepik.com/vecteurs-libre/nouvelle-conception-icone-x-du-logo-twitter-2023_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1880011253.1699660800&semt=ais',
-        networkName: 'Twitter X',
-        link: 'https://x.com/DonaldYoungoua?t=ciaFi8Fwwgi6u1snBa74Hg&s=09',
-    },
 ];
