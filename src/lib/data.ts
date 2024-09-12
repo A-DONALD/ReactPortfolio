@@ -13,7 +13,7 @@ export const navLinks = [
         hash: '#projects',
     },
     {
-        name: 'Formation',
+        name: 'Education',
         hash: '#formation',
     },
     {
@@ -21,7 +21,7 @@ export const navLinks = [
         hash: '#certifications',
     },
     {
-        name: 'Contacts',
+        name: 'Contact',
         hash: '#contact',
     },
 ];
@@ -97,7 +97,7 @@ export const projects = [
         projectLink: 'https://github.com/A-DONALD/AI-Classifier-WebEdition',
     },
     {
-        title: "Design fo Green 2023",
+        title: "Design for Green 2023",
         imageSrc: 'https://www.angers-developpement.com/wp-content/uploads/2017/10/DESIGN4GREEN_logo.jpg',
         details: 'a web application for the design4green contest',
         projectLink: 'https://jdac2023.vercel.app',
@@ -115,10 +115,10 @@ export const projects = [
         projectLink: 'https://github.com/A-DONALD/Citadelles',
     },
     {
-        title: "React Dashboard",
-        imageSrc: 'https://blog.codeinside.eu/assets/md-images/2023-02-11/vitejs.png',
-        details: 'three-tier architecture of admin dashboard who use node server and React UI',
-        projectLink: 'https://github.com/A-DONALD/ReactDashboard',
+        title: "NodeJS Server",
+        imageSrc: 'https://miro.medium.com/v2/resize:fit:1200/1*eGD0FT0if0bq8RUcU5d3zw.png',
+        details: 'A Express Node JS Server with mongoDB that provides authentication and roles based authorization',
+        projectLink: 'https://github.com/A-DONALD/CMRentServer',
     },
 ];
 
