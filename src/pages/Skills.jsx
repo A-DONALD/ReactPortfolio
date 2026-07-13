@@ -9,7 +9,7 @@ function Skills() {
                 <h1 className="text-4xl text-gray-700 dark:text-white font-bold mb-8">Skills</h1>
 
                 <div className="mb-12">
-                    <h2 className="text-2xl text-gray-700 dark:text-white py-4 font-bold mb-4">Compétences techniques</h2>
+                    <h2 className="text-2xl text-gray-700 dark:text-white py-4 font-bold mb-4">Hard / Technicals skills</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                         {technicalSkills.map((group, index) => (
                             <div key={index}>
@@ -26,7 +26,7 @@ function Skills() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
                     <div>
-                        <h2 className="text-2xl text-gray-700 dark:text-white py-4 font-bold mb-2">Qualités personnelles</h2>
+                        <h2 className="text-2xl text-gray-700 dark:text-white py-4 font-bold mb-2">Soft / Personal skills</h2>
                         <div className="flex flex-wrap justify-center gap-2">
                             {softSkills.map((soft, index) => (
                                 <SkillCard key={index} {...soft} />
@@ -35,7 +35,7 @@ function Skills() {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl text-gray-700 dark:text-white py-4 font-bold mb-2">Langues</h2>
+                        <h2 className="text-2xl text-gray-700 dark:text-white py-4 font-bold mb-2">Languages</h2>
                         <div className="space-y-2 max-w-xs mx-auto">
                             {languages.map((language, index) => (
                                 <div key={index} className="flex justify-between items-center bg-slate-300 dark:bg-gray-700 text-gray-900 dark:text-white rounded-md px-4 py-2">

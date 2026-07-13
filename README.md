@@ -43,6 +43,10 @@ To clone this project from Github, follow these steps:
    npm run dev
    ```
 
+# How to modify
+
+To simplify the modification of my portfolio, all the data are in the lib/data.ts file that you can modify to make your own version of it.
+
 # About
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
