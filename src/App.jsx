@@ -3,6 +3,7 @@ import NavBar from './pages/NavBar.jsx';
 import Hero from './pages/Hero.jsx';
 import Certifications from './pages/Certifications.jsx';
 import Contact from './pages/Contact.jsx';
+import Experience from './pages/Experience.jsx';
 import Footer from './pages/Footer.jsx';
 import Formation from './pages/Formation.jsx';
 import Projects from './pages/Projects.jsx';
@@ -51,17 +52,10 @@ function App() {
       <NavBar />
       <Hero />
       <Skills />
+      <Experience />
       <Projects />
-      <div className='container mx-auto text-center'>
-        <div className='flex flex-wrap justify-center items-center'>
-          <div className="w-full md:w-1/2">
-            <Formation />
-          </div>
-          <div className="w-full md:w-1/2">
-            <Certifications />
-          </div>
-        </div>
-      </div>
+      <Formation />
+      <Certifications />
       <Contact />
       <Footer />
     </main >

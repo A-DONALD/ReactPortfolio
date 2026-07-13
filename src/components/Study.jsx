@@ -1,18 +1,19 @@
 import React from 'react';
 
-function Study({ schoolLogo, title, schoolName, period, location, additionalDetails }) {
-
+function Study({ title, schoolName, period, location, additionalDetails, imageSrc }) {
     return (
-        <div className="relative bg-gray-200 dark:bg-gray-800 rounded-full p-4 mb-4 max-w-80vw md:max-w-480px mx-auto">
-            <div className="flex items-center">
-                <img src={schoolLogo} alt={schoolName} className="w-24 h-24 rounded-full mr-4 dark:bg-gray-300" />
-                <div className='ml-4'>
+        <div className="flex flex-col h-full text-left bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-md border border-gray-200 dark:border-gray-700 hover:border-slate-500 dark:hover:border-blue-600 transition-colors">
+            <div className="flex items-start gap-4">
+                <img src={imageSrc} alt={schoolName} className="w-14 h-14 rounded-full bg-slate-200 flex items-center justify-center" />
+                <div>
                     <h3 className="text-lg text-gray-900 dark:text-white font-bold">{title}</h3>
-                    <p className='text-gray-700 dark:text-gray-400'>{schoolName}</p>
-                    <p className='text-gray-700 dark:text-gray-400'>{location}</p>
-                    <p className='text-gray-700 dark:text-gray-400'>{period}</p>
+                    <p className="text-gray-700 dark:text-gray-300 font-medium">{schoolName}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">{location} · {period}</p>
                 </div>
             </div>
+            {additionalDetails && (
+                <p className="text-gray-600 dark:text-gray-400 mt-4 text-sm">{additionalDetails}</p>
+            )}
         </div>
     );
 };
