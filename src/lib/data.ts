@@ -1,10 +1,6 @@
 // Link of NavBar
 export const navLinks = [
     {
-        name: 'About',
-        hash: '#about',
-    },
-    {
         name: 'Skills',
         hash: '#skills',
     },
@@ -31,20 +27,20 @@ export const navLinks = [
 ];
 
 // Hero section bio
-export const bio = "Aux portes de ma carrière d’ingénieur, je suis animé par l’envie de relever de nouveaux défis et d’élargir mes compétences en informatique. Je souhaite intégrer une entreprise stimulante et accueillante où je pourrai apprendre, m’impliquer pleinement et grandir sur le plan personnel.";
+export const bio = "On the verge of starting my career as an engineer, I'm driven by the desire to take on new challenges and broaden my skills in computer science. I want to join a stimulating, welcoming company where I can keep learning, get fully involved, and grow on a personal level.";
 
 // Data of technical skills, grouped by category
 export const technicalSkills = [
     {
-        category: 'Langages',
+        category: 'Programming Languages',
         items: ['Python (pandas, numpy…)', 'R', 'Java', 'C#', '.NET', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'React.js', 'Selenium', 'SQL', 'T-SQL', 'PL/SQL', 'GraphQL'],
     },
     {
-        category: 'Connaissances pratiques',
-        items: ['IA', 'Machine Learning', 'Deep Learning', 'RAG', 'Intégration CI/CD', 'Automatisation des tests'],
+        category: 'Practical knowledge',
+        items: ['AI', 'Machine Learning', 'Deep Learning', 'RAG', 'CI/CD', 'Test automation'],
     },
     {
-        category: 'Outils',
+        category: 'Tools',
         items: ['Git', 'Spark', 'Kafka', 'Hadoop', 'TensorFlow', 'Keras', 'Okta', 'Auth0', 'Flask', 'Dataiku', 'Power BI', 'Postman', 'Jira', 'Confluence', 'Docker', 'Terraform'],
     },
 ];
@@ -52,38 +48,38 @@ export const technicalSkills = [
 // Data of personal skills / soft skills section
 export const softSkills = [
     {
-        title: 'Dynamique'
+        title: 'Dynamic'
     },
     {
-        title: 'Capacité d’analyse et de synthèse'
+        title: 'Analytical and synthesis skills'
     },
     {
-        title: 'Curiosité'
+        title: 'Curiosity'
     },
     {
-        title: 'Travail en équipe'
+        title: 'Teamwork'
     },
     {
-        title: 'Adaptation rapide'
+        title: 'Quick adaptability'
     },
     {
-        title: 'Autonome'
+        title: 'Self-reliant'
     },
 ];
 
 // Languages
 export const languages = [
     {
-        name: 'Français',
-        level: 'Langue maternelle',
+        name: 'French',
+        level: 'Native language',
     },
     {
-        name: 'Anglais',
-        level: 'Bilingue (B2 certifié)',
+        name: 'English',
+        level: 'Bilingual (B2 certified)',
     },
     {
-        name: 'Allemand',
-        level: 'Notions',
+        name: 'German',
+        level: 'Basic knowledge',
     },
 ];
 
@@ -130,33 +126,33 @@ export const projects = [
 // Data of professional experience section
 export const experiences = [
     {
-        role: 'Développeur CIAM',
+        role: 'CIAM Developer',
         company: 'Lyvoc',
         location: 'Paris, FRANCE',
-        period: 'Février 2026 - En cours',
+        period: 'February 2026 - Present',
         details: [
-            "Préparation des ateliers projets (architecture, conf & sécu, intégration d’applications et migration d’utilisateurs) pour des clients français et internationaux",
-            "Configuration des tenants Auth0 et implémentation de Terraform pour automatiser les déploiements",
-            "Implémentation d’un outil d’automatisation des tests",
-            "Implémentation de workflows Okta",
+            "Preparing project workshops (architecture, configuration & security, application integration and user migration) for French and international clients",
+            "Configuring Auth0 tenants and implementing Terraform to automate deployments",
+            "Building a test automation tool",
+            "Implementing Okta workflows",
         ],
     },
     {
-        role: 'Stagiaire DevOps',
+        role: 'DevOps Intern',
         company: 'Alcuin Software',
         location: 'Angers, FRANCE',
-        period: 'Avril 2025 - Septembre 2025',
+        period: 'April 2025 - September 2025',
         details: [
-            "Conception et déploiement de cinq nouveaux espaces de travail clients à travers la création de menus et fiches dans l’ERP",
-            "Amélioration du framework de tests automatisés pour intégrer la couverture fonctionnelle des nouveaux modules",
-            "Suivi de l’intégration continue (CI) et correction des anomalies détectées lors des campagnes de test",
+            "Designed and deployed five new client workspaces by creating menus and records in the ERP",
+            "Improved the automated testing framework to extend functional coverage to new modules",
+            "Monitored continuous integration (CI) and fixed anomalies detected during test campaigns",
         ],
     },
     {
         role: 'RAG Developer Internship',
         company: 'Ravensburg-Weingarten University of Applied Sciences',
         location: 'Ravensburg, GERMANY',
-        period: 'février 2025 - mars 2025',
+        period: 'February 2025 - March 2025',
         details: [
             "LLMS: Current Research & Practical Implementation",
             "Read the most cited papers and document myself about Large Language Models (LLMS) and RAG (retrieval augmented generation)",
@@ -164,24 +160,24 @@ export const experiences = [
         ],
     },
     {
-        role: 'Stagiaire Testeur QA',
+        role: 'QA Tester Intern',
         company: 'Alcuin Software',
         location: 'Angers, FRANCE',
-        period: 'Juin 2024 - Août 2024',
+        period: 'June 2024 - August 2024',
         details: [
-            "Rédaction et automatisation d’une trentaine de scénarios de tests fonctionnels via le framework interne (basé sur Selenium)",
-            "Développement et intégration de 50 nouvelles fonctionnalités de test pour étendre la couverture du framework",
-            "Collaboration étroite avec l’équipe DevOps pour optimiser la qualité logicielle et la rapidité de livraison",
+            "Wrote and automated around thirty functional test scenarios using the internal framework (based on Selenium)",
+            "Developed and integrated 50 new test features to extend the framework's coverage",
+            "Worked closely with the DevOps team to improve software quality and delivery speed",
         ],
     },
     {
-        role: 'Projet entreprise',
+        role: 'Corporate Project',
         company: 'École Supérieure des Agricultures',
         location: 'Angers, FRANCE',
-        period: 'Janvier 2024 - Avril 2024',
+        period: 'January 2024 - April 2024',
         details: [
-            "Gestion des risques cyber au sein de la DSI de l’ESA",
-            "Rédaction du PCA, PRA et formalisation de la cellule de gestion de crise",
+            "Managed cyber risk within ESA's IT department",
+            "Wrote the Business Continuity Plan (BCP) and Disaster Recovery Plan (DRP), and formalized the crisis management unit",
         ],
     },
 ];
@@ -189,36 +185,36 @@ export const experiences = [
 // Data of formation section
 export const studies = [
     {
-        title: "Diplôme d’ingénieur en informatique et réseau",
-        schoolName: 'ESAIP - école d’ingénieur',
-        period: 'Septembre 2022 - Août 2025',
+        title: "Engineering Degree in Computer Science and Networks",
+        schoolName: 'ESAIP - School of Engineering',
+        period: 'September 2022 - August 2025',
         location: 'Angers, FRANCE',
         imageSrc: '/images/education/esaip.png',
-        additionalDetails: 'Programmation front-end et back-end, réseaux et systèmes (CISCO Packet Tracer), bases de données et SQL.',
+        additionalDetails: 'Front-end and back-end programming, networks and systems (CISCO Packet Tracer), databases and SQL.',
     },
     {
-        title: 'Erasmus LV2 : Computer Science',
+        title: 'Erasmus LV2: Computer Science',
         schoolName: 'Hochschule Ravensburg Weingarten (RWU)',
-        period: 'Septembre 2024 - Février 2025',
-        location: 'Weingarten, ALLEMAGNE',
+        period: 'September 2024 - February 2025',
+        location: 'Weingarten, GERMANY',
         imageSrc: '/images/education/rwu.webp',
-        additionalDetails: 'Semestre d’échange académique en Allemagne.',
+        additionalDetails: 'Academic exchange semester in Germany.',
     },
     {
-        title: 'Erasmus LV1 : Computer Science and Engineering',
+        title: 'Erasmus LV1: Computer Science and Engineering',
         schoolName: 'Západočeská univerzita v Plzni (ZCU)',
-        period: 'Février 2023 - Mai 2023',
-        location: 'Pilsen, RÉPUBLIQUE TCHÈQUE',
+        period: 'February 2023 - May 2023',
+        location: 'Pilsen, CZECH REPUBLIC',
         imageSrc: '/images/education/zcu.png',
-        additionalDetails: 'Programmation Python et Java (Apache Maven), anglais, gestion de projet.',
+        additionalDetails: 'Python and Java programming (Apache Maven), English, project management.',
     },
     {
-        title: 'Classes préparatoires PCSI',
+        title: 'PCSI Preparatory Classes',
         schoolName: 'Institut universitaire de la côte',
-        period: 'Septembre 2019 - Juin 2022',
-        location: 'Douala, CAMEROUN',
+        period: 'September 2019 - June 2022',
+        location: 'Douala, CAMEROON',
         imageSrc: '/images/education/iuc.png',
-        additionalDetails: "Initiation à la programmation C et Java, manipulation des outils d’électronique de base et de modélisation 3D (AutoCAD, SolidWorks).",
+        additionalDetails: "Introduction to C and Java programming, basic electronics tools, and 3D modeling (AutoCAD, SolidWorks).",
     },
 ];
 
@@ -228,7 +224,7 @@ export const certificates = [
         title: 'Microsoft Certified: Azure AI Fundamentals',
         imageSrc: '/images/certifs/microsoft-certified-azure-ai-fundamentals.png',
         organization: 'Microsoft',
-        date: 'Octobre 2023',
+        date: 'October 2023',
         url: 'https://www.credly.com/badges/a207c4dc-09fd-43e7-bc75-2f0b299ffbc7/public_url',
     },
     {
@@ -284,10 +280,5 @@ export const contactsLinks = [
         iconSrc: '/images/contacts/gmail.png',
         networkName: 'Gmail',
         link: 'mailto:donaldyoungoua@gmail.com',
-    },
-    {
-        iconSrc: '/images/contacts/tel.png',
-        networkName: 'Téléphone',
-        link: 'tel:0751382550',
     },
 ];
